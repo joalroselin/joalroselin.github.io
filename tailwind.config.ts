@@ -1,5 +1,12 @@
 import type { Config } from "tailwindcss";
 
+module.exports = {
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}', // Adjust the paths if your project structure is different
+    './app/**/*.{js,ts,jsx,tsx}',
+  ]
+}
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,5 +23,4 @@ const config: Config = {
     },
   },
   plugins: [],
-};
-export default config;
+}
