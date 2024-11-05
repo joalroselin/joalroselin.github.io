@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <div>
-      <h1>Test app</h1>
+      <h1>Test app again</h1>
     </div>
       <div>
         <a href="https://vite.dev" target="_blank">
