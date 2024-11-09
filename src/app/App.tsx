@@ -1,31 +1,30 @@
-import './styles/App.css';
 import Link from 'next/link';
+import './styles/App.css';
 
 function App() {
 
   return (
     <div>
-      <nav>
-        <div className="bg-gray-200 p-4"> 
-          <div className="container mx-auto flex items-center justify-between">
+      <div className="bg-gray-200 p-4"> 
+        <div className="container mx-auto flex items-center justify-between">
           <div className="text-xl font-bold">Hello Joal</div> {/* Your brand name */}
           <ul className="flex space-x-6"> 
-              <li>
+            <li>
               <Link href="/">Home</Link>
-              </li>
-              <li>
-                  <Link href="/about">About</Link>
-              </li>
-              <li>
-                  <Link href="/projects">Projects</Link>
-              </li>
-              <li>
-                  <Link href="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <Link href="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link href="/contact">Contact</Link>
 
-              </li>
+            </li>
           </ul>
-          </div>
         </div>
+      </div>
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
           <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
@@ -80,7 +79,6 @@ function App() {
         </div>
       </main>
     </div>
-    
   )
 }
 
