@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import Navbar from './components/Navbar'
-import CTANewsletter from './components/ctaNewsletter'
+import CTANewsletter from './components/CTANewsletter'
 import Portfolio from './components/Portfolio'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
